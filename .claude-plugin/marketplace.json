@@ -1,0 +1,14 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "byjun-plugins",
+  "owner": {
+    "name": "byjun.min"
+  },
+  "plugins": [
+    {
+      "name": "mcp-cli-from-rest-app",
+      "source": "./plugins/mcp-cli-from-rest-app",
+      "description": "Convert an existing REST/Express app into an MCP stdio server and a thin terminal CLI, reusing its business logic instead of rewriting it."
+    }
+  ]
+}
