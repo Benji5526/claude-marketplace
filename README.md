@@ -7,9 +7,11 @@ Claude Code용 개인 플러그인 마켓플레이스.
 Claude Code 세션에서:
 
 ```
-/plugin marketplace add <이 저장소 경로 또는 git URL>
-/plugin install mcp-cli-from-rest-app@claude-marketplace
+/plugin marketplace add Benji5526/claude-marketplace
+/plugin install mcp-cli-from-rest-app@byjun-plugins
 ```
+
+(마켓플레이스 이름은 저장소 이름과 다른 `byjun-plugins`입니다 — `claude-marketplace`라는 이름 자체는 공식 마켓플레이스 사칭으로 오인되어 등록이 거부됩니다.)
 
 ## 포함된 플러그인
 
