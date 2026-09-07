@@ -1,0 +1,9 @@
+{
+  "name": "plugin-marketplace-setup",
+  "version": "1.0.0",
+  "description": "Create and publish a personal Claude Code plugin marketplace from scratch, including the naming gotcha and GitHub publishing steps.",
+  "author": {
+    "name": "byjun.min"
+  },
+  "keywords": ["claude-code", "plugin", "marketplace", "github"]
+}

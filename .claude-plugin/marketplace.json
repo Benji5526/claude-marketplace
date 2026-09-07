@@ -9,6 +9,11 @@
       "name": "mcp-cli-from-rest-app",
       "source": "./plugins/mcp-cli-from-rest-app",
       "description": "Convert an existing REST/Express app into an MCP stdio server and a thin terminal CLI, reusing its business logic instead of rewriting it."
+    },
+    {
+      "name": "plugin-marketplace-setup",
+      "source": "./plugins/plugin-marketplace-setup",
+      "description": "Create and publish a personal Claude Code plugin marketplace from scratch, including the naming gotcha and GitHub publishing steps."
     }
   ]
 }
