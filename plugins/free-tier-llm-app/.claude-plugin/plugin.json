@@ -1,0 +1,9 @@
+{
+  "name": "free-tier-llm-app",
+  "version": "1.0.0",
+  "description": "Build an app on a free-tier LLM API: verify unfamiliar SDKs via live docs, add an automatic mock mode, and consolidate calls to survive tight rate limits.",
+  "author": {
+    "name": "byjun.min"
+  },
+  "keywords": ["llm", "free-tier", "mock", "rate-limit", "gemini", "api"]
+}

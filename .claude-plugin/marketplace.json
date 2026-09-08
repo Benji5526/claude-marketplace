@@ -14,6 +14,11 @@
       "name": "plugin-marketplace-setup",
       "source": "./plugins/plugin-marketplace-setup",
       "description": "Create and publish a personal Claude Code plugin marketplace from scratch, including the naming gotcha and GitHub publishing steps."
+    },
+    {
+      "name": "free-tier-llm-app",
+      "source": "./plugins/free-tier-llm-app",
+      "description": "Build an app on a free-tier LLM API: verify unfamiliar SDKs via live docs, add an automatic mock mode, and consolidate calls to survive tight rate limits."
     }
   ]
 }
