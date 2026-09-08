@@ -19,6 +19,11 @@
       "name": "free-tier-llm-app",
       "source": "./plugins/free-tier-llm-app",
       "description": "Build an app on a free-tier LLM API: verify unfamiliar SDKs via live docs, add an automatic mock mode, and consolidate calls to survive tight rate limits."
+    },
+    {
+      "name": "persona-conversation-agent",
+      "source": "./plugins/persona-conversation-agent",
+      "description": "Design a persona-driven customer conversation agent (intent + persistent memory + guardrailed persona + reply generation) and test it behind a mock channel before any real platform integration."
     }
   ]
 }

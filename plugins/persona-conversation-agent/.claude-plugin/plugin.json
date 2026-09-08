@@ -1,0 +1,9 @@
+{
+  "name": "persona-conversation-agent",
+  "version": "1.0.0",
+  "description": "Design a persona-driven customer conversation agent (intent classification + persistent customer memory + guardrailed persona + reply generation) and test it behind a mock channel before any real platform integration.",
+  "author": {
+    "name": "byjun.min"
+  },
+  "keywords": ["agent", "persona", "chatbot", "customer-service", "memory"]
+}
