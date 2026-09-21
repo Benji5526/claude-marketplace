@@ -12,6 +12,7 @@ Claude Code 세션에서:
 /plugin install plugin-marketplace-setup@byjun-plugins
 /plugin install free-tier-llm-app@byjun-plugins
 /plugin install persona-conversation-agent@byjun-plugins
+/plugin install platform-dm-integration@byjun-plugins
 ```
 
 (마켓플레이스 이름은 저장소 이름과 다른 `byjun-plugins`입니다 — `claude-marketplace`라는 이름 자체는 공식 마켓플레이스 사칭으로 오인되어 등록이 거부됩니다.)
@@ -22,3 +23,4 @@ Claude Code 세션에서:
 - **plugin-marketplace-setup** — 이 저장소 자체를 만들 때 쓴 방법을 담은 스킬. marketplace.json/plugin.json 구조, "claude"가 들어간 마켓플레이스 이름이 거부되는 함정, GitHub 공개, SSH/HTTPS 등록 차이를 다룸.
 - **free-tier-llm-app** — 무료 티어/비주력 LLM 프로바이더(Gemini 등)로 앱을 만들 때의 패턴. 낯선 SDK는 WebFetch로 검증, API 키 유무에 따른 자동 목(mock) 모드, 무료 티어 요청 한도를 위한 호출 통합을 다룸.
 - **persona-conversation-agent** — 페르소나 기반 대화 에이전트(AI 상담원/컨시어지 등) 설계 패턴. 추출(의도+메모리)/메모리(순수 DB)/답변(페르소나) 레이어 분리, 페르소나 문서-코드 동기화와 가드레일, 프로세스 재시작 후에도 메모리가 이어지는지 검증하는 방법을 다룸.
+- **platform-dm-integration** — DM 자동화를 어느 플랫폼에 붙일 수 있는지부터 가리는 스킬. 봇 계정과 내 계정은 다르다는 핵심 함정(Telegram 봇은 상대가 /start 필요, Discord 셀프봇은 계정 정지, Instagram만 공식 경로), 설정이 틀리면 에러 없이 침묵하는 Instagram 웹훅 체크리스트, is_echo·재시도 중복·raw body 서명·글자가 아닌 바이트 길이 제한, 그리고 인바운드만이 아니라 아웃바운드에도 seam이 필요하다는 점을 다룸.

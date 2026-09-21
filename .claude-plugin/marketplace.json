@@ -24,6 +24,11 @@
       "name": "persona-conversation-agent",
       "source": "./plugins/persona-conversation-agent",
       "description": "Design a persona-driven customer conversation agent (intent + persistent memory + guardrailed persona + reply generation) and test it behind a mock channel before any real platform integration."
+    },
+    {
+      "name": "platform-dm-integration",
+      "source": "./plugins/platform-dm-integration",
+      "description": "Pick a messaging platform that can actually deliver an automated DM feature, then wire it correctly — bot accounts are not your account, and Instagram webhooks fail silently when misconfigured."
     }
   ]
 }
